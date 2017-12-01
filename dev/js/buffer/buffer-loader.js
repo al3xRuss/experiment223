@@ -1,4 +1,4 @@
-var audioMetaData = require('audio-metadata');
+var audioMetaData = require('./audio-metadata');
 
 function BufferLoader(context, urlList, callback) {
     this.phoneme = new String;

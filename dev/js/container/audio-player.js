@@ -8,7 +8,7 @@ import BufferLoader from '../buffer/buffer-loader';
 
 import styles from '../../scss/style.scss';
 
-var audioMetaData = require('audio-metadata');
+var audioMetaData = require('../buffer/audio-metadata');
 
 class AudioPlayer extends Component {
     constructor(props, context) {
