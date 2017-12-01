@@ -23,7 +23,7 @@ To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
 
 ## Additional instructions
 
-If I have provided you with an additional mp3 file, navigate to the directory [/src/audio](../tree/master/src/audio) and replace alexruss.mp3 with the provided alexruss.mp3 file.
+If I have provided you with an additional mp3 file, navigate to the directory [/src/audio](../master/src/audio) and replace alexruss.mp3 with the provided alexruss.mp3 file.
 
 ## Links
 
