@@ -55,13 +55,13 @@ class AudioPlayer extends Component {
 
     initAudio() {
         var that = this;
-        if (!navigator.getUserMedia) {
+        if (!navigator.mediaDevices.getUserMedia) {
 
             console.log('Your browser does not support the Media Stream API');
 
         } else {
 
-            navigator.getUserMedia(
+            navigator.mediaDevices.getUserMedia(
 
                 {audio: true, video: false},
 
@@ -492,7 +492,7 @@ class AudioPlayer extends Component {
                                     alert('Your browser does not support the Web Audio API');
                                     return;
                                 };
-                                navigator.getUserMedia(
+                                navigator.mediaDevices.getUserMedia(
                                     
                                     {audio: true, video: false},
                     
